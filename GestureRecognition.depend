@@ -1,0 +1,1238 @@
+# depslib dependency file v1.0
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\adaboost.cpp
+	"AdaBoost.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\adaboost.h
+	"../../CoreModules/Classifier.h"
+	"AdaBoostClassModel.h"
+	"WeakClassifiers/DecisionStump.h"
+	"WeakClassifiers/RadialBasisFunction.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\classifier.h
+	"MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\mlbase.h
+	"GRTBase.h"
+	"../Util/Metrics.h"
+	"../DataStructures/UnlabelledData.h"
+	"../DataStructures/ClassificationData.h"
+	"../DataStructures/ClassificationDataStream.h"
+	"../DataStructures/RegressionData.h"
+	"../DataStructures/TimeSeriesClassificationData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\grtbase.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<fstream>
+	<sstream>
+	<string>
+	<float.h>
+	<cmath>
+	<time.h>
+	<map>
+	<limits>
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<cstddef>
+	"../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\grtcommon.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<fstream>
+	<sstream>
+	<string>
+	<float.h>
+	<cmath>
+	<math.h>
+	<time.h>
+	<map>
+	<limits>
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<cstddef>
+	<atomic>
+	<thread>
+	<mutex>
+	<memory>
+	<random>
+	"GRTVersionInfo.h"
+	"GRTTypedefs.h"
+	"GRTException.h"
+	"MinMax.h"
+	"ClassTracker.h"
+	"IndexedDouble.h"
+	"DebugLog.h"
+	"ErrorLog.h"
+	"InfoLog.h"
+	"TrainingLog.h"
+	"TestingLog.h"
+	"WarningLog.h"
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+	"TrainingResult.h"
+	"TestInstanceResult.h"
+	"TestResult.h"
+	"CircularBuffer.h"
+	"Timer.h"
+	"TimeStamp.h"
+	"Random.h"
+	"Util.h"
+	"EigenvalueDecomposition.h"
+	"Cholesky.h"
+	"LUDecomposition.h"
+	"SVD.h"
+	"FileParser.h"
+	"ObserverManager.h"
+	"ThreadPool.h"
+	"DataType.h"
+	"DynamicType.h"
+	"Dict.h"
+	"Metrics.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\grtversioninfo.h
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\grttypedefs.h
+	"GRTVersionInfo.h"
+	<iostream>
+	<iterator>
+	<vector>
+	<algorithm>
+	<fstream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<limits>
+	<cmath>
+	<windows.h>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\grtexception.h
+	<iostream>
+	<exception>
+	"GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\minmax.h
+	"GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\classtracker.h
+	<iostream>
+	<string>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\indexeddouble.h
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\debuglog.h
+	"Log.h"
+	"ObserverManager.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\log.h
+	"GRTTypedefs.h"
+	<atomic>
+	<thread>
+	<mutex>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\observermanager.h
+	"Observer.h"
+	"../DataStructures/Vector.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\observer.h
+	"GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\vector.h
+	<iostream>
+	<iterator>
+	<algorithm>
+	<vector>
+	"../Util/GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\errorlog.h
+	"ObserverManager.h"
+	"Log.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\infolog.h
+	"Log.h"
+	"ObserverManager.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\traininglog.h
+	"Log.h"
+	"ObserverManager.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\testinglog.h
+	"Log.h"
+	"ObserverManager.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\warninglog.h
+	"Log.h"
+	"ObserverManager.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\vectorfloat.h
+	"..//Util/GRTTypedefs.h"
+	"Vector.h"
+	"../Util/MinMax.h"
+	"../Util/DebugLog.h"
+	"../Util/ErrorLog.h"
+	"../Util/WarningLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\\util\grttypedefs.h
+	"GRTVersionInfo.h"
+	<iostream>
+	<iterator>
+	<vector>
+	<algorithm>
+	<fstream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<limits>
+	<cmath>
+	<windows.h>
+
+1494658516 f:\myprojects\gesturerecognition\grt\\util\grtversioninfo.h
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\matrixfloat.h
+	"Matrix.h"
+	"VectorFloat.h"
+	"../Util/MinMax.h"
+	"../Util/Log.h"
+	"../Util/DebugLog.h"
+	"../Util/ErrorLog.h"
+	"../Util/WarningLog.h"
+	"../Util/FileParser.h"
+	"../Util/ErrorLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\matrix.h
+	"../Util/GRTTypedefs.h"
+	"Vector.h"
+	<exception>
+	"../Util/GRTException.h"
+	"../Util/ErrorLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\fileparser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<algorithm>
+	<iterator>
+	<sstream>
+	<deque>
+	"../DataStructures/Vector.h"
+	"InfoLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\trainingresult.h
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\testinstanceresult.h
+	"GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\testresult.h
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\circularbuffer.h
+	<iostream>
+	<vector>
+	"GRTTypedefs.h"
+	"ErrorLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\timer.h
+	"GRTVersionInfo.h"
+	"GRTTypedefs.h"
+	<windows.h>
+	<mmsystem.h>
+	<sys/time.h>
+	<sys/time.h>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\timestamp.h
+	"Timer.h"
+	"ErrorLog.h"
+	"WarningLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\random.h
+	<assert.h>
+	<cstring>
+	"../Util/GRTVersionInfo.h"
+	"Timer.h"
+	"../DataStructures/Vector.h"
+	"../DataStructures/VectorFloat.h"
+	"IndexedDouble.h"
+	<random>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\util.h
+	"GRTVersionInfo.h"
+	"GRTTypedefs.h"
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+	<windows.h>
+	<unistd.h>
+	<dirent.h>
+	<unistd.h>
+	<dirent.h>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\eigenvaluedecomposition.h
+	"GRTTypedefs.h"
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\cholesky.h
+	"Log.h"
+	"DebugLog.h"
+	"ErrorLog.h"
+	"WarningLog.h"
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\ludecomposition.h
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\svd.h
+	"GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\threadpool.h
+	<vector>
+	<queue>
+	<stdexcept>
+	<memory>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<future>
+	<functional>
+	"GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\datatype.h
+	"../DataStructures/VectorFloat.h"
+	"../DataStructures/MatrixFloat.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\dynamictype.h
+	"GRTTypedefs.h"
+	<memory>
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\dict.h
+	"GRTTypedefs.h"
+	"DynamicType.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\metrics.h
+	"GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\unlabelleddata.h
+	"../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\classificationdata.h
+	"VectorFloat.h"
+	"../Util/GRTCommon.h"
+	"../CoreModules/GRTBase.h"
+	"ClassificationSample.h"
+	"RegressionData.h"
+	"UnlabelledData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\classificationsample.h
+	"../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\regressiondata.h
+	"../Util/GRTTypedefs.h"
+	"VectorFloat.h"
+	"RegressionSample.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\regressionsample.h
+	"../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\classificationdatastream.h
+	"../Util/GRTCommon.h"
+	"TimeSeriesPositionTracker.h"
+	"ClassificationData.h"
+	"TimeSeriesClassificationData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\timeseriespositiontracker.h
+	"../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\timeseriesclassificationdata.h
+	"VectorFloat.h"
+	"MatrixFloat.h"
+	"../Util/GRTCommon.h"
+	"TimeSeriesClassificationSample.h"
+	"UnlabelledData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\datastructures\timeseriesclassificationsample.h
+	"VectorFloat.h"
+	"MatrixFloat.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\adaboostclassmodel.h
+	"WeakClassifiers/WeakClassifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\weakclassifiers\weakclassifier.h
+	"../../../Util/GRTCommon.h"
+	"../../../DataStructures/ClassificationData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\weakclassifiers\decisionstump.h
+	"WeakClassifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\weakclassifiers\radialbasisfunction.h
+	"WeakClassifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\weakclassifiers\decisionstump.cpp
+	"DecisionStump.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\weakclassifiers\radialbasisfunction.cpp
+	"RadialBasisFunction.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\adaboost\weakclassifiers\weakclassifier.cpp
+	"WeakClassifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\anbc\anbc.cpp
+	"ANBC.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\anbc\anbc.h
+	"ANBC_Model.h"
+	"../../CoreModules/Classifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\anbc\anbc_model.h
+	"../../DataStructures/VectorFloat.h"
+	"../../DataStructures/MatrixFloat.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\anbc\anbc_model.cpp
+	"ANBC_Model.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\bag\bag.cpp
+	"BAG.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\bag\bag.h
+	"../../CoreModules/Classifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontree.cpp
+	"DecisionTree.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontree.h
+	"../../CoreModules/Classifier.h"
+	"../../CoreAlgorithms/Tree/Tree.h"
+	"DecisionTreeNode.h"
+	"DecisionTreeThresholdNode.h"
+	"DecisionTreeClusterNode.h"
+	"DecisionTreeTripleFeatureNode.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\tree\tree.h
+	"Node.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\tree\node.h
+	"../../CoreModules/MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreenode.h
+	"../../CoreAlgorithms/Tree/Node.h"
+	"../../CoreAlgorithms/Tree/Tree.h"
+	"../../DataStructures/ClassificationData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreethresholdnode.h
+	"DecisionTreeNode.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreeclusternode.h
+	"DecisionTreeNode.h"
+	"../../ClusteringModules/KMeans/KMeans.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\clusteringmodules\kmeans\kmeans.h
+	"../../Util/GRTCommon.h"
+	"../../CoreModules/Clusterer.h"
+	"../../DataStructures/ClassificationData.h"
+	"../../DataStructures/UnlabelledData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\clusterer.h
+	"MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreetriplefeaturenode.h
+	"DecisionTreeNode.h"
+	"../../ClusteringModules/KMeans/KMeans.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreeclusternode.cpp
+	"DecisionTreeClusterNode.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreenode.cpp
+	"DecisionTreeNode.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreethresholdnode.cpp
+	"DecisionTreeThresholdNode.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\decisiontree\decisiontreetriplefeaturenode.cpp
+	"DecisionTreeTripleFeatureNode.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\dtw\dtw.cpp
+	"DTW.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\dtw\dtw.h
+	"../../CoreModules/Classifier.h"
+	"../../Util/TimeSeriesClassificationSampleTrimmer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\timeseriesclassificationsampletrimmer.h
+	"../DataStructures/TimeSeriesClassificationData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\finitestatemachine\finitestatemachine.cpp
+	"FiniteStateMachine.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\finitestatemachine\finitestatemachine.h
+	"../../CoreModules/Classifier.h"
+	"FSMParticleFilter.h"
+	"../../ClusteringModules/KMeans/KMeans.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\finitestatemachine\fsmparticlefilter.h
+	"../../CoreAlgorithms/ParticleFilter/ParticleFilter.h"
+	"FSMParticle.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\particlefilter\particlefilter.h
+	"Particle.h"
+	"../../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\particlefilter\particle.h
+	"../../Util/GRTTypedefs.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\finitestatemachine\fsmparticle.h
+	"../../CoreAlgorithms/ParticleFilter/Particle.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\gmm\gmm.cpp
+	"GMM.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\gmm\gmm.h
+	"../../CoreModules/Classifier.h"
+	"../../ClusteringModules/GaussianMixtureModels/GaussianMixtureModels.h"
+	"MixtureModel.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\clusteringmodules\gaussianmixturemodels\gaussianmixturemodels.h
+	"../../CoreModules/Clusterer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\gmm\mixturemodel.h
+	"../../CoreModules/Classifier.h"
+	"../../ClusteringModules/GaussianMixtureModels/GaussianMixtureModels.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\continuoushiddenmarkovmodel.cpp
+	"ContinuousHiddenMarkovModel.h"
+	"HMMEnums.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\continuoushiddenmarkovmodel.h
+	"HMMEnums.h"
+	"../../Util/GRTCommon.h"
+	"../../CoreModules/MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\hmmenums.h
+	<iostream>
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\discretehiddenmarkovmodel.cpp
+	"DiscreteHiddenMarkovModel.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\discretehiddenmarkovmodel.h
+	"HMMEnums.h"
+	"../../Util/GRTCommon.h"
+	"../../CoreModules/MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\hmm.cpp
+	"HMM.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\hmm\hmm.h
+	"HMMEnums.h"
+	"DiscreteHiddenMarkovModel.h"
+	"ContinuousHiddenMarkovModel.h"
+	"../../CoreModules/Classifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\knn\knn.cpp
+	"KNN.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\knn\knn.h
+	"../../CoreModules/Classifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\mindist\mindist.cpp
+	"MinDist.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\mindist\mindist.h
+	"MinDistModel.h"
+	"../../CoreModules/Classifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\mindist\mindistmodel.h
+	"../../Util/GRTCommon.h"
+	"../../ClusteringModules/KMeans/KMeans.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\mindist\mindistmodel.cpp
+	"MinDistModel.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\particleclassifier\particleclassifier.cpp
+	"ParticleClassifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\particleclassifier\particleclassifier.h
+	"../../CoreModules/Classifier.h"
+	"ParticleClassifierParticleFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\particleclassifier\particleclassifierparticlefilter.h
+	"../../CoreAlgorithms/ParticleFilter/ParticleFilter.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\randomforests\randomforests.cpp
+	"RandomForests.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\randomforests\randomforests.h
+	"../DecisionTree/DecisionTree.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\softmax\softmax.cpp
+	"Softmax.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\softmax\softmax.h
+	"../../CoreModules/Classifier.h"
+	"SoftmaxModel.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\softmax\softmaxmodel.h
+	"../../CoreModules/Classifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\svm\libsvm\libsvm.cpp
+	"libsvm.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\svm\libsvm\libsvm.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<stdarg.h>
+	<limits.h>
+	<locale.h>
+	<iostream>
+	<algorithm>
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\svm\svm.cpp
+	"SVM.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\svm\svm.h
+	"../../CoreModules/Classifier.h"
+	"LIBSVM/libsvm.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\classificationmodules\swipedetector\swipedetector.cpp
+	"SwipeDetector.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\classificationmodules\swipedetector\swipedetector.h
+	"../../CoreModules/Classifier.h"
+	"../../Util/ThresholdCrossingDetector.h"
+	"../../PreProcessingModules/MedianFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\thresholdcrossingdetector.h
+	"../PreProcessingModules/MovingAverageFilter.h"
+	"../PreProcessingModules/Derivative.h"
+	"CircularBuffer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\movingaveragefilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\preprocessing.h
+	"MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\derivative.h
+	"../CoreModules/PreProcessing.h"
+	"MovingAverageFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\medianfilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\clusteringmodules\clustertree\clustertree.cpp
+	"ClusterTree.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\clusteringmodules\clustertree\clustertree.h
+	"../../CoreModules/Clusterer.h"
+	"../../CoreAlgorithms/Tree/Tree.h"
+	"ClusterTreeNode.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\clusteringmodules\clustertree\clustertreenode.h
+	"../../CoreAlgorithms/Tree/Node.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\clusteringmodules\gaussianmixturemodels\gaussianmixturemodels.cpp
+	"GaussianMixtureModels.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\clusteringmodules\hierarchicalclustering\hierarchicalclustering.cpp
+	"HierarchicalClustering.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\clusteringmodules\hierarchicalclustering\hierarchicalclustering.h
+	"../../CoreModules/Clusterer.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\clusteringmodules\kmeans\kmeans.cpp
+	"KMeans.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\clusteringmodules\selforganizingmap\selforganizingmap.cpp
+	"SelfOrganizingMap.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\clusteringmodules\selforganizingmap\selforganizingmap.h
+	"../../Util/GRTCommon.h"
+	"../../CoreModules/Clusterer.h"
+	"../../Util/Random.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\contextmodules\gate.cpp
+	"Gate.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\contextmodules\gate.h
+	"../Util/GRTCommon.h"
+	"../CoreModules/Context.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\context.h
+	"MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\corealgorithms\bernoullirbm\bernoullirbm.cpp
+	"BernoulliRBM.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\bernoullirbm\bernoullirbm.h
+	"../../Util/GRTTypedefs.h"
+	"../../DataStructures/MatrixFloat.h"
+	"../../CoreModules/MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\corealgorithms\movementdetector\movementdetector.cpp
+	"MovementDetector.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\movementdetector\movementdetector.h
+	"../../CoreModules/MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\corealgorithms\principalcomponentanalysis\principalcomponentanalysis.cpp
+	"PrincipalComponentAnalysis.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\principalcomponentanalysis\principalcomponentanalysis.h
+	"../../Util/GRTCommon.h"
+	"../../CoreModules/MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\corealgorithms\tree\node.cpp
+	"Node.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\corealgorithms\tree\tree.cpp
+	"Tree.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\classifier.cpp
+	"Classifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\clusterer.cpp
+	"Clusterer.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\context.cpp
+	"Context.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\featureextraction.cpp
+	"FeatureExtraction.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\featureextraction.h
+	"MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\gesturerecognitionpipeline.cpp
+	"GestureRecognitionPipeline.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\gesturerecognitionpipeline.h
+	"../Util/GRTCommon.h"
+	"PreProcessing.h"
+	"FeatureExtraction.h"
+	"Classifier.h"
+	"Regressifier.h"
+	"Clusterer.h"
+	"PostProcessing.h"
+	"Context.h"
+	"../DataStructures/ClassificationDataStream.h"
+	"../Util/ClassificationResult.h"
+	"../Util/TestResult.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\regressifier.h
+	"MLBase.h"
+	"../DataStructures/ClassificationData.h"
+	"../DataStructures/TimeSeriesClassificationData.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\coremodules\postprocessing.h
+	"MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\classificationresult.h
+	"GRTCommon.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\grtbase.cpp
+	"GRTBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\mlbase.cpp
+	"MLBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\postprocessing.cpp
+	"PostProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\preprocessing.cpp
+	"PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\coremodules\regressifier.cpp
+	"Regressifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\classificationdata.cpp
+	"ClassificationData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\classificationdatastream.cpp
+	"ClassificationDataStream.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\classificationsample.cpp
+	"ClassificationSample.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\matrixfloat.cpp
+	"MatrixFloat.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\regressiondata.cpp
+	"RegressionData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\regressionsample.cpp
+	"RegressionSample.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\timeseriesclassificationdata.cpp
+	"TimeSeriesClassificationData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\timeseriesclassificationsample.cpp
+	"TimeSeriesClassificationSample.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\unlabelleddata.cpp
+	"UnlabelledData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\datastructures\vectorfloat.cpp
+	"VectorFloat.h"
+	"../Util/FileParser.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\envelopeextractor\envelopeextractor.cpp
+	"EnvelopeExtractor.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\envelopeextractor\envelopeextractor.h
+	"../../CoreModules/FeatureExtraction.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\fft\fastfouriertransform.cpp
+	"FastFourierTransform.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\fft\fastfouriertransform.h
+	"../../Util/GRTCommon.h"
+	"../../CoreModules/GRTBase.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\fft\fft.cpp
+	"FFT.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\fft\fft.h
+	"../../CoreModules/FeatureExtraction.h"
+	"FastFourierTransform.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\fft\fftfeatures.cpp
+	"FFTFeatures.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\fft\fftfeatures.h
+	"../../CoreModules/FeatureExtraction.h"
+	"FFT.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\kmeansfeatures\kmeansfeatures.cpp
+	"KMeansFeatures.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\kmeansfeatures\kmeansfeatures.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../ClusteringModules/KMeans/KMeans.h"
+	"../../DataStructures/TimeSeriesClassificationData.h"
+	"../../DataStructures/ClassificationDataStream.h"
+	"../../DataStructures/UnlabelledData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\kmeansquantizer\kmeansquantizer.cpp
+	"KMeansQuantizer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\kmeansquantizer\kmeansquantizer.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../ClusteringModules/KMeans/KMeans.h"
+	"../../DataStructures/ClassificationDataStream.h"
+	"../../DataStructures/TimeSeriesClassificationData.h"
+	"../../DataStructures/UnlabelledData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\movementindex\movementindex.cpp
+	"MovementIndex.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\movementindex\movementindex.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../Util/Util.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\movementtrajectoryfeatures\movementtrajectoryfeatures.cpp
+	"MovementTrajectoryFeatures.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\movementtrajectoryfeatures\movementtrajectoryfeatures.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../Util/Util.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\rbmquantizer\rbmquantizer.cpp
+	"RBMQuantizer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\rbmquantizer\rbmquantizer.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../CoreAlgorithms/BernoulliRBM/BernoulliRBM.h"
+	"../../DataStructures/TimeSeriesClassificationData.h"
+	"../../DataStructures/ClassificationDataStream.h"
+	"../../DataStructures/UnlabelledData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\somquantizer\somquantizer.cpp
+	"SOMQuantizer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\somquantizer\somquantizer.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../ClusteringModules/SelfOrganizingMap/SelfOrganizingMap.h"
+	"../../DataStructures/TimeSeriesClassificationData.h"
+	"../../DataStructures/ClassificationDataStream.h"
+	"../../DataStructures/UnlabelledData.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\timedomainfeatures\timedomainfeatures.cpp
+	"TimeDomainFeatures.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\timedomainfeatures\timedomainfeatures.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../Util/Util.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\timeseriesbuffer\timeseriesbuffer.cpp
+	"TimeseriesBuffer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\timeseriesbuffer\timeseriesbuffer.h
+	"../../CoreModules/FeatureExtraction.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\featureextractionmodules\zerocrossingcounter\zerocrossingcounter.cpp
+	"ZeroCrossingCounter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\featureextractionmodules\zerocrossingcounter\zerocrossingcounter.h
+	"../../CoreModules/FeatureExtraction.h"
+	"../../PreProcessingModules/Derivative.h"
+	"../../PreProcessingModules/DeadZone.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\deadzone.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\postprocessingmodules\classlabelchangefilter.cpp
+	"ClassLabelChangeFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\postprocessingmodules\classlabelchangefilter.h
+	"../Util/GRTCommon.h"
+	"../CoreModules/PostProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\postprocessingmodules\classlabelfilter.cpp
+	"ClassLabelFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\postprocessingmodules\classlabelfilter.h
+	"../Util/GRTCommon.h"
+	"../CoreModules/PostProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\postprocessingmodules\classlabeltimeoutfilter.cpp
+	"ClassLabelTimeoutFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\postprocessingmodules\classlabeltimeoutfilter.h
+	"../Util/GRTCommon.h"
+	"../CoreModules/PostProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\deadzone.cpp
+	"DeadZone.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\derivative.cpp
+	"Derivative.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\doublemovingaveragefilter.cpp
+	"DoubleMovingAverageFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\doublemovingaveragefilter.h
+	"../CoreModules/PreProcessing.h"
+	"MovingAverageFilter.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\firfilter.cpp
+	"FIRFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\firfilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\highpassfilter.cpp
+	"HighPassFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\highpassfilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\leakyintegrator.cpp
+	"LeakyIntegrator.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\leakyintegrator.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\lowpassfilter.cpp
+	"LowPassFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\lowpassfilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\medianfilter.cpp
+	"MedianFilter.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\movingaveragefilter.cpp
+	"MovingAverageFilter.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\rmsfilter.cpp
+	"RMSFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\rmsfilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\savitzkygolayfilter.cpp
+	"SavitzkyGolayFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\savitzkygolayfilter.h
+	"../CoreModules/PreProcessing.h"
+	"../Util/LUDecomposition.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\preprocessingmodules\weightedaveragefilter.cpp
+	"WeightedAverageFilter.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\preprocessingmodules\weightedaveragefilter.h
+	"../CoreModules/PreProcessing.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\regressionmodules\artificialneuralnetworks\mlp\mlp.cpp
+	"MLP.h"
+	"../../../CoreModules/Regressifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\artificialneuralnetworks\mlp\mlp.h
+	"Neuron.h"
+	"../../../CoreModules/Regressifier.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\artificialneuralnetworks\mlp\neuron.h
+	"../../../Util/GRTCommon.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\regressionmodules\artificialneuralnetworks\mlp\neuron.cpp
+	"Neuron.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\regressionmodules\linearregression\linearregression.cpp
+	"LinearRegression.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\linearregression\linearregression.h
+	"../../CoreModules/Regressifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\regressionmodules\logisticregression\logisticregression.cpp
+	"LogisticRegression.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\logisticregression\logisticregression.h
+	"../../CoreModules/Regressifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\regressionmodules\multidimensionalregression\multidimensionalregression.cpp
+	"MultidimensionalRegression.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\multidimensionalregression\multidimensionalregression.h
+	"../../CoreModules/Regressifier.h"
+	"../LinearRegression/LinearRegression.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\regressionmodules\regressiontree\regressiontree.cpp
+	"RegressionTree.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\regressiontree\regressiontree.h
+	"../../CoreModules/Regressifier.h"
+	"../../CoreAlgorithms/Tree/Tree.h"
+	"RegressionTreeNode.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\regressionmodules\regressiontree\regressiontreenode.h
+	"../../CoreAlgorithms/Tree/Node.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\cholesky.cpp
+	"Cholesky.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\debuglog.cpp
+	"DebugLog.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\eigenvaluedecomposition.cpp
+	"EigenvalueDecomposition.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\errorlog.cpp
+	"ErrorLog.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\infolog.cpp
+	"InfoLog.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\ludecomposition.cpp
+	"LUDecomposition.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\metrics.cpp
+	"Metrics.h"
+	"../DataStructures/ClassificationData.h"
+	"../CoreModules/Classifier.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\peakdetection.cpp
+	"PeakDetection.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\peakdetection.h
+	"CircularBuffer.h"
+	"../PreProcessingModules/DoubleMovingAverageFilter.h"
+	"../PreProcessingModules/DeadZone.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\random.cpp
+	"Random.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\rangetracker.cpp
+	"RangeTracker.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\rangetracker.h
+	"GRTCommon.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\svd.cpp
+	"SVD.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\testinglog.cpp
+	"TestingLog.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\threadpool.cpp
+	"ThreadPool.h"
+	<iostream>
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\thresholdcrossingdetector.cpp
+	"ThresholdCrossingDetector.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\timeseriesclassificationsampletrimmer.cpp
+	"TimeSeriesClassificationSampleTrimmer.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\trainingdatarecordingtimer.cpp
+	"TrainingDataRecordingTimer.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\trainingdatarecordingtimer.h
+	"GRTCommon.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\traininglog.cpp
+	"TrainingLog.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\util.cpp
+	"Util.h"
+	"TimeStamp.h"
+
+1494658516 source:f:\myprojects\gesturerecognition\grt\util\warninglog.cpp
+	"WarningLog.h"
+
+1497602424 source:f:\myprojects\gesturerecognition\dtwmodel.cpp
+	"GRT.h"
+	<iostream>
+
+1494658516 f:\myprojects\gesturerecognition\grt\grt.h
+	"Util/GRTVersionInfo.h"
+	"Util/GRTCommon.h"
+	"Util/RangeTracker.h"
+	"Util/TrainingDataRecordingTimer.h"
+	"Util/SVD.h"
+	"Util/LUDecomposition.h"
+	"Util/Cholesky.h"
+	"Util/EigenvalueDecomposition.h"
+	"Util/TestResult.h"
+	"Util/ClassificationResult.h"
+	"Util/PeakDetection.h"
+	"Util/ThresholdCrossingDetector.h"
+	"Util/CommandLineParser.h"
+	"Util/Metrics.h"
+	"DataStructures/Vector.h"
+	"DataStructures/VectorFloat.h"
+	"DataStructures/Matrix.h"
+	"DataStructures/MatrixFloat.h"
+	"DataStructures/ClassificationData.h"
+	"DataStructures/TimeSeriesClassificationData.h"
+	"DataStructures/ClassificationDataStream.h"
+	"DataStructures/RegressionData.h"
+	"DataStructures/UnlabelledData.h"
+	"CoreAlgorithms/BernoulliRBM/BernoulliRBM.h"
+	"CoreAlgorithms/EvolutionaryAlgorithm/EvolutionaryAlgorithm.h"
+	"CoreAlgorithms/LeastSquares/LinearLeastSquares.h"
+	"CoreAlgorithms/MovementDetector/MovementDetector.h"
+	"CoreAlgorithms/ParticleFilter/ParticleFilter.h"
+	"CoreAlgorithms/ParticleSwarmOptimization/ParticleSwarmOptimization.h"
+	"CoreAlgorithms/PrincipalComponentAnalysis/PrincipalComponentAnalysis.h"
+	"CoreAlgorithms/Tree/Tree.h"
+	"CoreAlgorithms/MeanShift/MeanShift.h"
+	"CoreAlgorithms/GridSearch/GridSearch.h"
+	"PreProcessingModules/Derivative.h"
+	"PreProcessingModules/LeakyIntegrator.h"
+	"PreProcessingModules/LowPassFilter.h"
+	"PreProcessingModules/FIRFilter.h"
+	"PreProcessingModules/HighPassFilter.h"
+	"PreProcessingModules/MovingAverageFilter.h"
+	"PreProcessingModules/MedianFilter.h"
+	"PreProcessingModules/DoubleMovingAverageFilter.h"
+	"PreProcessingModules/RMSFilter.h"
+	"PreProcessingModules/SavitzkyGolayFilter.h"
+	"PreProcessingModules/DeadZone.h"
+	"PreProcessingModules/WeightedAverageFilter.h"
+	"FeatureExtractionModules/ZeroCrossingCounter/ZeroCrossingCounter.h"
+	"FeatureExtractionModules/EnvelopeExtractor/EnvelopeExtractor.h"
+	"FeatureExtractionModules/FFT/FFT.h"
+	"FeatureExtractionModules/FFT/FFTFeatures.h"
+	"FeatureExtractionModules/MovementTrajectoryFeatures/MovementTrajectoryFeatures.h"
+	"FeatureExtractionModules/MovementIndex/MovementIndex.h"
+	"FeatureExtractionModules/TimeDomainFeatures/TimeDomainFeatures.h"
+	"FeatureExtractionModules/KMeansQuantizer/KMeansQuantizer.h"
+	"FeatureExtractionModules/KMeansFeatures/KMeansFeatures.h"
+	"FeatureExtractionModules/RBMQuantizer/RBMQuantizer.h"
+	"FeatureExtractionModules/SOMQuantizer/SOMQuantizer.h"
+	"FeatureExtractionModules/TimeseriesBuffer/TimeseriesBuffer.h"
+	"PostProcessingModules/ClassLabelFilter.h"
+	"PostProcessingModules/ClassLabelTimeoutFilter.h"
+	"PostProcessingModules/ClassLabelChangeFilter.h"
+	"ClassificationModules/AdaBoost/AdaBoost.h"
+	"ClassificationModules/ANBC/ANBC.h"
+	"ClassificationModules/BAG/BAG.h"
+	"ClassificationModules/DecisionTree/DecisionTree.h"
+	"ClassificationModules/DTW/DTW.h"
+	"ClassificationModules/FiniteStateMachine/FiniteStateMachine.h"
+	"ClassificationModules/GMM/GMM.h"
+	"ClassificationModules/HMM/HMM.h"
+	"ClassificationModules/KNN/KNN.h"
+	"ClassificationModules/MinDist/MinDist.h"
+	"ClassificationModules/ParticleClassifier/ParticleClassifier.h"
+	"ClassificationModules/RandomForests/RandomForests.h"
+	"ClassificationModules/Softmax/Softmax.h"
+	"ClassificationModules/SVM/SVM.h"
+	"ClassificationModules/SwipeDetector/SwipeDetector.h"
+	"RegressionModules/ArtificialNeuralNetworks/MLP/MLP.h"
+	"RegressionModules/LinearRegression/LinearRegression.h"
+	"RegressionModules/LogisticRegression/LogisticRegression.h"
+	"RegressionModules/MultidimensionalRegression/MultidimensionalRegression.h"
+	"RegressionModules/RegressionTree/RegressionTree.h"
+	"ClusteringModules/ClusterTree/ClusterTree.h"
+	"ClusteringModules/KMeans/KMeans.h"
+	"ClusteringModules/GaussianMixtureModels/GaussianMixtureModels.h"
+	"ClusteringModules/HierarchicalClustering/HierarchicalClustering.h"
+	"ClusteringModules/SelfOrganizingMap/SelfOrganizingMap.h"
+	"ContextModules/Gate.h"
+	"CoreModules/GestureRecognitionPipeline.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\util\commandlineparser.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<fstream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<limits>
+	<math.h>
+	<fstream>
+	<typeinfo>
+	"InfoLog.h"
+	"WarningLog.h"
+	"ErrorLog.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\evolutionaryalgorithm\evolutionaryalgorithm.h
+	"Individual.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\evolutionaryalgorithm\individual.h
+	"../../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\leastsquares\linearleastsquares.h
+	"../../CoreModules/MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\particleswarmoptimization\particleswarmoptimization.h
+	"../../Util/GRTCommon.h"
+	"PSOParticle.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\particleswarmoptimization\psoparticle.h
+	"../../Util/GRTCommon.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\meanshift\meanshift.h
+	"../../CoreModules/MLBase.h"
+
+1494658516 f:\myprojects\gesturerecognition\grt\corealgorithms\gridsearch\gridsearch.h
+	"../../CoreModules/MLBase.h"
+	"../../CoreModules/GestureRecognitionPipeline.h"
+	<functional>
+
+1496826888 source:f:\myprojects\gesturerecognition\try.cpp
+
+1498472194 source:f:\myprojects\gesturerecognition\dtwpipeline.cpp
+	<iostream>
+	"GRT.h"
+	"Serial.h"
+	<string>
+	<sstream>
+	<windows.h>
+
+1498187708 source:f:\myprojects\gesturerecognition\serial.cpp
+	"Serial.h"
+
+1497804568 f:\myprojects\gesturerecognition\serial.h
+	<windows.h>
+
